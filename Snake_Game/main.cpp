@@ -46,7 +46,7 @@ int main() {
 void PrintMap()
 {
 	for (int x = 0; x < width; x += 2)
-		std::cout << "бс";
+		std::cout << "б╪";
 	std::cout << std::endl;
 
 	for (int y = 1; y < height - 1; y++)
@@ -54,12 +54,12 @@ void PrintMap()
 			if (x == 0 || x == width - 2)
 			{
 				gotoxy(x / 2, y);
-				std::cout << "бс";
+				std::cout << "б╪";
 			}
 	std::cout << std::endl;
 
 	for (int x = 0; x < width; x += 2)
-		std::cout << "бс";
+		std::cout << "б╪";
 }
 
 void CursorView()
